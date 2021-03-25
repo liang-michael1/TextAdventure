@@ -1,0 +1,38 @@
+/*
+function myProgram() {
+    const root = document.getElementById('root');
+
+    const buttons = ['button 1', 'button 2'];
+
+    buttons.push(makeButton('Push Me', 'blue', root));
+    // makes a button and adds to document
+    function makeButton(text, styles, parent) {
+        const btn = document.createElement('button');
+        btn.innerHTML = text;
+        btn.setAttribute('style', `
+        color: ${color};
+        margin: ${margin};
+        `);
+        console.log(btn);
+        parent.appendChild(btn)
+        return btn;
+    }
+    // function to remove button
+    for (let i = 0; i < buttons.length; i++) {
+        document.removeElement(buttons[i]);
+    }
+    // bottom is same as for loop
+    buttons.forEach((btn) => {
+        document.removeElement(btn);
+    });
+    makeButton('Push Me', 'blue', root);
+}
+// run on load
+window.addEventListener('load', myProgram);
+
+const textElement = document.getElementById('text')
+const optionButtonsElement = document.getElementById('option-buttons')
+
+let state = {}
+
+*/
