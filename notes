@@ -115,5 +115,24 @@ switch (expr) {
 
 alert("Is there anything else you'd like?");
 
+/*
+if (playerName === "") {
+    alert("no name was entered..");
+} else if (playerName != null) {
+    alert("Welcome to the text game")
+}
+/*function promptFunction() {
+    let playerName = console.log("what shall your name be?")
+    if (playerName === "") {
+        console.log("no name was given.....")
+    } else {
+        (playerName != null)
+        console.log(playerName + "welcome to croakymon");
+    }
+}
+*/
+
+
+*/
 */
 */
