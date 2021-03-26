@@ -85,10 +85,6 @@ while (muchthings == false) {
         }
     }
 
-    while (finale === 0) {
-
-    }
-
     alert("hello");
     muchthings = confirm("do you wanna leave?")
 }
